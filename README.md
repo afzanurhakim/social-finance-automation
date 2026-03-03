@@ -21,6 +21,7 @@ A "Human-in-the-Loop" AI workflow that automates the creative heavy lifting. By 
 
 ### Workflow Visualization
 ![Input Interface](assets/images/app-screenshot-input.PNG)
+
 *Figure 1: The structured input interface ensuring consistent prompting.*
 
 ### Key Features
@@ -61,7 +62,9 @@ The workflow utilizes Gemini's generative capabilities to process structured inp
 > *Tone:* Professional and analytical
 
 **Generated Output:**
+
 ![Output Result](assets/images/app-screenshot-output.PNG)
+
 *Figure 2: The generated output featuring visual direction and captioning.*
 
 > **Slide 5 Concept:** "Emergency funds aren't just a safety net, they are a foundation for long-term value..."
