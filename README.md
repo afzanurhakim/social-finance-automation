@@ -83,7 +83,7 @@ While this workflow significantly accelerates the ideation phase, it is designed
 
 ## Project Files
 * `assets/docs/`: Detailed project explanation and background.
-* `prompts/`: (Optional) System instructions used to tune Gemini for this specific task.
+* `prompts/`: System instructions used to tune Gemini for this specific task.
 
 ## Project Information
 This is the final project of AI for Work & Career Readiness which is part of the AI Opportunity Fund: Asia Pacific, in collaboration with AVPN and supported by Google.org and the Asian Development Bank.
