@@ -89,6 +89,8 @@ While this workflow significantly accelerates the ideation phase, it is designed
 3.  **Context Window:**
     * The model does not have real-time access to the company's internal private database (ERP/SAP). All context must be provided via the input prompt.
 
+**What's next for an AI Engineer?*
+   * Future Integration: Potential to connect the output JSON directly to the Canva API or Figma API to auto-generate the visual slides.
 ---
 
 ## Project Files
