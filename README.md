@@ -10,23 +10,23 @@
 
 ---
 
-## 🧐 Problem Statement
+## Problem Statement
 The internal Social Media team faces a bottleneck in maintaining an active presence (minimum 3 posts/week) due to:
-* [cite_start]**High Time Cost:** Brainstorming, visual conceptualization, and copywriting are labor-intensive[cite: 297].
+* **High Time Cost:** Brainstorming, visual conceptualization, and copywriting are labor-intensive.
 * **Consistency Issues:** Maintaining a consistent corporate tone across technical financial topics is difficult.
 * **Resource Constraints:** Limited bandwidth to tailor content for specific stakeholders (investors, employees, B2B clients).
 
-## 💡 The Solution
+## The Solution
 A "Human-in-the-Loop" AI workflow that automates the creative heavy lifting. By providing 4 structured inputs, the system generates a complete content strategy ready for design and publishing.
 
 ### Key Features
 * **Automated Storyboarding:** Generates a 6-slide carousel outline with visual instructions.
-* [cite_start]**Tone Calibration:** Adjusts language based on target audience (e.g., "Professional yet accessible" for investors)[cite: 304].
-* [cite_start]**Strategic Alignment:** Ensures every post aligns with specific business goals like transparency or trust-building[cite: 303].
+* **Tone Calibration:** Adjusts language based on target audience (e.g., "Professional yet accessible" for investors).
+* **Strategic Alignment:** Ensures every post aligns with specific business goals like transparency or trust-building.
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 The workflow utilizes Gemini's generative capabilities to process structured inputs into creative assets.
 
@@ -41,33 +41,32 @@ The workflow utilizes Gemini's generative capabilities to process structured inp
 ### Output Deliverables
 1.  **Carousel Visual Strategy (6 Slides):**
     * **Hook:** Catchy opening slide concept.
-    * [cite_start]**Content Body:** Educational points broken down (e.g., "Emergency funds as a foundation for value")[cite: 307].
+    * **Content Body:** Educational points broken down (e.g., "Emergency funds as a foundation for value").
     * **CTA:** Strong closing slide.
 2.  **Post Caption:** Fully written copywriting including hashtags.
 
 ---
 
-## 📸 Demo & Case Study
+## Demo & Case Study
 
 **Scenario:** The finance team needs to communicate the stability of the company's emergency reserves to shareholders.
 
 **Input:**
-> *Topic:* Pentingnya dana darurat perusahaan
-> *Audience:* Investor dan pemegang saham
+> *Topic:* The importance of company emergency fund
+> *Audience:* Investor and shareholders
 > *Tone:* Professional and analytical
 
 **Generated Output (Snippet):**
 > **Slide 5 Concept:** "Emergency funds aren't just a safety net, they are a foundation for long-term value..."
-> [cite_start]**Caption:** "Is your investment built to withstand the unexpected? True resilience starts with a strategic corporate emergency fund..." [cite: 308]
+> **Caption:** "Is your investment built to withstand the unexpected? True resilience starts with a strategic corporate emergency fund..."
 
 *(See full example in `examples/example_run_emergency_fund.md`)*
 
 ---
 
-## 🛠️ Project Files
+## Project Files
 * `assets/docs/`: Detailed project explanation and background.
 * `prompts/`: (Optional) System instructions used to tune Gemini for this specific task.
 
-## 👤 Author
-* **[Your Name]** - *Initial Work*
-* Created as part of the **AI for Work & Career Readiness** program.
+## Project Information
+This is the final project of AI for Work & Career Readiness which is part of the AI Opportunity Fund: Asia Pacific, in collaboration with AVPN and supported by Google.org and the Asian Development Bank.
