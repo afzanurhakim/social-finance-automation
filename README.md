@@ -19,6 +19,10 @@ The internal Social Media team faces a bottleneck in maintaining an active prese
 ## The Solution
 A "Human-in-the-Loop" AI workflow that automates the creative heavy lifting. By providing 4 structured inputs, the system generates a complete content strategy ready for design and publishing.
 
+### Workflow Visualization
+![Input Interface](assets/images/app-screenshot-input.png)
+*Figure 1: The structured input interface ensuring consistent prompting.*
+
 ### Key Features
 * **Automated Storyboarding:** Generates a 6-slide carousel outline with visual instructions.
 * **Tone Calibration:** Adjusts language based on target audience (e.g., "Professional yet accessible" for investors).
@@ -56,11 +60,14 @@ The workflow utilizes Gemini's generative capabilities to process structured inp
 > *Audience:* Investor and shareholders
 > *Tone:* Professional and analytical
 
-**Generated Output (Snippet):**
+**Generated Output:**
+![Output Result](assets/images/app-screenshot-output.png)
+*Figure 2: The generated output featuring visual direction and captioning.*
+
 > **Slide 5 Concept:** "Emergency funds aren't just a safety net, they are a foundation for long-term value..."
 > **Caption:** "Is your investment built to withstand the unexpected? True resilience starts with a strategic corporate emergency fund..."
 
-*(See full example in `examples/example_run_emergency_fund.md`)*
+*(See full log in `examples/example_run_emergency_fund.md`)*
 
 ---
 
@@ -83,7 +90,8 @@ While this workflow significantly accelerates the ideation phase, it is designed
 
 ## Project Files
 * `assets/docs/`: Detailed project explanation and background.
-* `prompts/`: System instructions used to tune Gemini for this specific task.
+* `prompts/system_instructions.md`: The system prompt logic used to tune Gemini for this specific task.
+* `examples/`: Full markdown logs of successful test runs.
 
 ## Project Information
 This is the final project of AI for Work & Career Readiness which is part of the AI Opportunity Fund: Asia Pacific, in collaboration with AVPN and supported by Google.org and the Asian Development Bank.
