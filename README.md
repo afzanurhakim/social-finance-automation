@@ -1,4 +1,4 @@
-# Social Finance: AI-Powered Content Workflow 🚀
+# Social Finance: AI-Powered Content Workflow
 
 ![Gemini Opal](https://img.shields.io/badge/Built%20With-Gemini%20Opal-4285F4?style=for-the-badge&logo=google)
 ![Category](https://img.shields.io/badge/Category-Marketing%20Automation-success?style=for-the-badge)
@@ -6,7 +6,7 @@
 
 **Social Finance** is an automated workflow built on [Gemini Opal](https://opal.google/) designed to streamline the creation of high-quality, corporate finance social media content. It transforms high-level topics into structured carousel outlines and engaging copywriting, significantly reducing production time.
 
-🔗 **[Try the App on Gemini Opal](https://opal.google/app/1-ye6Q8wcq0YWAAt_vefPLatuXvpiWGxF)**
+🔗 **[Try the Social Finance: AI-Powered Content Workflow App on Gemini Opal now!](https://opal.google/app/1-ye6Q8wcq0YWAAt_vefPLatuXvpiWGxF)**
 
 ---
 
