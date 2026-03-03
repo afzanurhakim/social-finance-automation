@@ -64,6 +64,23 @@ The workflow utilizes Gemini's generative capabilities to process structured inp
 
 ---
 
+## ⚠️ Limitations & Future Scope
+
+While this workflow significantly accelerates the ideation phase, it is designed as a **Human-in-the-Loop** system and has the following constraints:
+
+1.  **No Native Image Generation:**
+    * The tool provides detailed *visual descriptions* and *design direction* (e.g., "Use a rising blue line chart"), but it does not generate the actual `.png` or `.jpg` files.
+    * *Workaround:* The output is intended to be handed off to a graphic designer or fed into an image generation tool like Midjourney/Canva.
+
+2.  **Financial Data Accuracy:**
+    * As an LLM-based tool, it may generate plausible-sounding but factually incorrect placeholders for financial metrics if specific numbers aren't provided in the prompt.
+    * *Mitigation:* All specific financial figures (Revenue, EBITDA, etc.) must be verified by the Finance Department before publication.
+
+3.  **Context Window:**
+    * The model does not have real-time access to the company's internal private database (ERP/SAP). All context must be provided via the input prompt.
+
+---
+
 ## Project Files
 * `assets/docs/`: Detailed project explanation and background.
 * `prompts/`: (Optional) System instructions used to tune Gemini for this specific task.
